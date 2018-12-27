@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite  name="testng suite">
+  <test name="Facebook Test">
+    <classes>
+      <class name="testNgTestCases.ParametersTest" />
+      <class name="testNgTestCases.ParametersTest1" />
+      <class name="testNgTestCases.ParametersTest3" />  
+    </classes>
+	    <packages>
+	    <package name="testNgTestCases.*"/>
+	    </packages>
+  </test> 
+</suite>
